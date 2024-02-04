@@ -1,4 +1,5 @@
 import turtle
+import random
 
 if __name__ == '__main__':
     window = turtle.Screen()
@@ -8,8 +9,8 @@ if __name__ == '__main__':
     my_turtle = turtle.Turtle()
 
     # Make your turtle's shape 'turtle', .shape('turtle')
+    my_turtle = turtle.shape("circle")
 
-    # Set your turtle's speed using .speed(2)
 
     # Set your turtle's color using .color('green') and .pencolor('blue')
 

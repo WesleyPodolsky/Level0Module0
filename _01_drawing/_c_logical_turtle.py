@@ -1,5 +1,10 @@
 import random
 import turtle
+import keyboard
+while True:
+    if keyboard.read_key() == "a":
+        print("You pressed 'a'.")
+        break
 
 
 # Returns a random color!
@@ -34,9 +39,15 @@ if __name__ == '__main__':
     window.setup(width=0.75, height=0.8, startx=0, starty=0)
     
     # 1. Make a new turtle
-    
+    import turtle
     # 2. Make your turtle's shape 'turtle', .shape('turtle')
-    
+    my_turtle = turtle.shape("classic")
+    my_turtle = turtle.forward(100)
+    my_turtle = turtle.back(100)
+
+    if :
+        my_turtle = turtle.shape("triangle")
+
     # 3. Set your turtle's color using .color('green') and .pencolor('blue')
     
     # 4. Set and new width, length, and outline of our turtle

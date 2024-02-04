@@ -1,5 +1,6 @@
 from tkinter import messagebox, simpledialog, Tk
-
+import tkMessageBox
+tkMessageBox.showinfo(title="Greetings", message="Hello, World!")
 # Create an if-main code block, *hint, type main then ctrl+space to auto-complete
 if __name__ == '__main__':
     # Make a new window variable, window = Tk()
