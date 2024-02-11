@@ -18,7 +18,7 @@ if __name__ == '__main__':
     # This code sets our shape to a turtle
     my_turtle = turtle.shape('turtle')
     # Set your turtle's speed (0=fastest, 1=slowest, 10=faster)
-    my_turtle = turtle.speed(1)
+    my_turtle = turtle.speed(999)
     # Set your turtle's color using .color('green')
     my_turtle = turtle.color('green')
     # Use a loop to repeat a the code below 50 times

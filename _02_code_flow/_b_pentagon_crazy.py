@@ -27,11 +27,11 @@ if __name__ == '__main__':
     # Make the turtle shape 'turtle', .shape('turtle')
     my_turtle = turtle.shape('turtle')
     # Set the turtle speed to max (0)
-    my_turtle = turtle.speed(0)
+    my_turtle = turtle.speed(9999)
     # Set the turtle width to 1
     my_turtle = turtle.width(1)
     # Create a variable to hold the number of sides in a pentagon
-    shapeSides = 5
+    shapeSides = 3.6
     # Create a variable to be the angle of 360 divided by the sides variable
     angleOne = 360/shapeSides
     # Use a for loop to repeat ALL the following lines of code 360 times. 
