@@ -41,20 +41,20 @@ if __name__ == '__main__':
     # 1. Make a new turtle
     import turtle
     # 2. Make your turtle's shape 'turtle', .shape('turtle')
-    my_turtle = turtle.shape("classic")
-    my_turtle = turtle.forward(100)
-    my_turtle = turtle.back(100)
+    my_turtle = turtle.shape("turtle")
 
-    if :
-        my_turtle = turtle.shape("triangle")
+
+
+
 
     # 3. Set your turtle's color using .color('green') and .pencolor('blue')
-    
+    my_turtle = turtle.color('green')
+    my_turtle = turtle.color('blue')
     # 4. Set and new width, length, and outline of our turtle
-    #    my_turtle.turtlesize(stretch_wid=10, stretch_len=10, outline=4)
+    my_turtle.turtlesize(stretch_wid=10, stretch_len=10, outline=4)
 
     # 5. Uncomment the following line and replace 'my_turtle' with your turtle
-    # my_turtle.onclick(turtle_clicked)
+    my_turtle.onclick(turtle_clicked)
 
 # ===================== DO NOT EDIT THE CODE BELOW ============================
     window.onclick(screen_clicked)
